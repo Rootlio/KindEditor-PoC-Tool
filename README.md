@@ -19,7 +19,7 @@ Content-Type: application/octet-stream
 <?php system($_GET['cmd']); ?>
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 ```
-❗ Why this is dangerous ❗
-The attacker uploads a simple upload.php file to the web server using this method.
-Then, using this upload.php, they inject a PHP Webshell into the server.
+❗ Why this is dangerous ❗  
+The attacker uploads a simple upload.php file to the web server using this method.  
+Then, using this upload.php, they inject a PHP Webshell into the server.  
 After that, the damage becomes inevitable. Please update your system immediately if you are using this version of kindeditor.
